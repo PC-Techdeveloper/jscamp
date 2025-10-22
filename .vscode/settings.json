@@ -1,0 +1,104 @@
+{
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "symbols",
+  "workbench.settings.editor": "json",
+
+  "git.suggestSmartCommit": false,
+  "redhat.telemetry.enabled": true,
+  "terminal.integrated.cursorBlinking": true,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "CaskaydiaCove Nerd Font",
+  "editor.cursorBlinking": "expand",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 12,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.renderWhitespace": "all",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.snippetSuggestions": "top",
+  "editor.stickyScroll.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "files.exclude": {
+    "**/*.js.map": {
+      "when": "$(basename)"
+    },
+    "**/node_modules": false
+  },
+
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+
+  "emmet.includeLanguages": {
+    "markdown": "html",
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "html",
+    "typescript": "html"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": true
+  },
+
+  "[javascript, javascriptreact, typescript, scss, jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+
+  "autoprefixer.options": {
+    "browsers": ["last 4 versions", "ie >= 9", "> 5%"]
+  },
+  "window.zoomLevel": 1.5,
+  "editor.minimap.enabled": false,
+  "prettier.enable": true,
+  "prettier.semi": true,
+  "prettier.printWidth": 200,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": true,
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "explorer.compactFolders": false,
+  "editor.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "breadcrumbs.enabled": false,
+  "editor.glyphMargin": true,
+  "editor.folding": true,
+  "editor.formatOnType": true,
+  "workbench.startupEditor": "none",
+  "editor.linkedEditing": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "oneDarkPro.italic": true,
+  "git.confirmSync": false,
+  "editor.parameterHints.enabled": false,
+  "oneDarkPro.bold": true,
+  "oneDarkPro.vivid": true
+}
