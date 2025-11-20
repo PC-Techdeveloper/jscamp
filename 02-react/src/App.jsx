@@ -3,7 +3,15 @@ function App() {
     <>
       <header>
         <h1>
-          <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <svg
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <polyline points="16 18 22 12 16 6"></polyline>
             <polyline points="8 6 2 12 8 18"></polyline>
           </svg>
@@ -39,7 +47,13 @@ function App() {
                 <path d="M21 21l-6 -6" />
               </svg>
 
-              <input name="search" id="empleos-search-input" required type="text" placeholder="Buscar trabajos, empresas o habilidades" />
+              <input
+                name="search"
+                id="empleos-search-input"
+                required
+                type="text"
+                placeholder="Buscar trabajos, empresas o habilidades"
+              />
             </div>
 
             <div className="search-filters">
@@ -90,7 +104,16 @@ function App() {
 
           <nav className="pagination">
             <a href="#">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <path d="M15 6l-6 6l6 6" />
               </svg>

@@ -1,27 +1,27 @@
-import { state } from './config.js'
+import { state } from './config.js';
 
-state.count++
+state.count++;
 
-console.log(state)
+console.log(state);
 
-const filter = document.querySelector('#filter-location')
-const mensaje = document.querySelector('#filter-selected-value')
+const filter = document.querySelector('#filter-location');
+const mensaje = document.querySelector('#filter-selected-value');
 
 filter.addEventListener('change', function () {
-  const jobs = document.querySelectorAll('.job-listing-card')
+  const jobs = document.querySelectorAll('.job-listing-card');
 
-  const selectedValue = filter.value
+  const selectedValue = filter.value;
 
   if (selectedValue) {
-    mensaje.textContent = `Has seleccionado: ${selectedValue}`
+    mensaje.textContent = `Has seleccionado: ${selectedValue}`;
   } else {
-    mensaje.textContent = ''
+    mensaje.textContent = '';
   }
 
-  jobs.forEach(job => {
+  jobs.forEach((job) => {
     // const modalidad = job.dataset.modalidad
-    const modalidad = job.getAttribute('data-modalidad')
-    const isShown = selectedValue === '' || selectedValue === modalidad
-    job.classList.toggle('is-hidden', isShown === false)
-  })
-})
+    const modalidad = job.getAttribute('data-modalidad');
+    const isShown = selectedValue === '' || selectedValue === modalidad;
+    job.classList.toggle('is-hidden', isShown === false);
+  });
+});
